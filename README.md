@@ -47,7 +47,7 @@ pip list | grep -E "numpy|librosa|soundfile|noisereduce|tqdm|scipy"
 
 Run the script with the following command:
 ```bash
-python anonymization.py <input_directory> <output_directory>
+python3 anonymization.py <input_directory> <output_directory>
 ```
 Replace `<input_directory>` with the folder containing your audio files and `<output_directory>` with the folder where anonymized files will be saved.
 
