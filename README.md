@@ -1,4 +1,4 @@
-# CleverLytics Audio Anonymization Algorithm
+# Cleverlytics Audio Anonymization Algorithm
 
 ## Summary
 
@@ -45,25 +45,11 @@ pip list | grep -E "librosa|soundfile|noisereduce|numpy"
 
 ## Quick Usage
 
-```python
-from cleverlytics_anonymization import cleverlytics_anonymization_algorithm
-
-# Basic usage
-cleverlytics_anonymization_algorithm(
-    input_directory='/path/to/input/audio/files',
-    output_directory='/path/to/anonymized/files'
-)
-
-# Advanced configuration
-cleverlytics_anonymization_algorithm(
-    input_directory='/path/to/input/audio/files',
-    output_directory='/path/to/anonymized/files',
-    mcadams_coeff=0.85,        # Adjust spectral transformation
-    pitch_shift_steps=3,       # Modify pitch 
-    gain_db=10,                # Volume adjustment
-    use_noise_reduction=True   # Enable noise reduction
-)
+Run the script with the following command:
+```bash
+python anonymization.py <input_directory> <output_directory>
 ```
+Replace `<input_directory>` with the folder containing your audio files and `<output_directory>` with the folder where anonymized files will be saved.
 
 ## Detailed Definitions
 
