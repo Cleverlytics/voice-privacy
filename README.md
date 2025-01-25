@@ -40,7 +40,7 @@ pip install -r requirements.txt
 
 4. Verify installation:
 ```bash
-pip list | grep -E "librosa|soundfile|noisereduce|numpy"
+pip list | grep -E "numpy|librosa|soundfile|noisereduce|tqdm|scipy"
 ```
 
 ## Quick Usage
