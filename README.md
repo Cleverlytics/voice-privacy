@@ -51,6 +51,11 @@ python3 anonymization.py <input_directory> <output_directory>
 ```
 Replace `<input_directory>` with the folder containing your audio files and `<output_directory>` with the folder where anonymized files will be saved.
 
+For advanced users, run the script by specifying parameters as follows:
+```bash
+python3 anonymization.py <input_directory> <output_directory> --mcadams_coeff=0.9  --pitch_shift_steps=3 --gain_db=15 --no_noise_reduction
+```
+
 ## Detailed Definitions
 
 ### 1. Spectral Envelope
