@@ -53,7 +53,7 @@ Replace `<input_directory>` with the folder containing your audio files and `<ou
 
 For advanced users, run the script by specifying parameters as follows:
 ```bash
-python3 anonymization.py <input_directory> <output_directory> --mcadams_coeff=0.9  --pitch_shift_steps=3 --gain_db=15 --no_noise_reduction
+python3 anonymization.py <input_directory> <output_directory> --mcadams_coeff=0.9  --pitch_shift_steps=3 --gain_db=15 --no_noise_reduction --no_mfcc_encryption
 ```
 
 ## Detailed Definitions
